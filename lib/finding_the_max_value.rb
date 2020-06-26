@@ -1,4 +1,4 @@
 def find_max_value(array)
-  array.sort 
-  return array.first
+  newArray = array.sort 
+  return newArray.last
 end

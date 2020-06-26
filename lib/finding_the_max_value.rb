@@ -1,8 +1,8 @@
 def find_max_value(array)
-  i=0, p=1 
-  while i<array.length
-    if array[i] <= array[i+1]
-    return array[i+1]
+  i=0, 
+  for 0...array.length do 
+  array[i] <= array[p]
+  return array[p]
     else
     return array[i]
     end
